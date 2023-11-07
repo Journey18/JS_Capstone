@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -20,7 +19,6 @@ html, body {
   color: #FFFFFF;
   font-size: 20px;
   font-weight: 400;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 .cybershoes-carousel-btn:hover {
@@ -37,7 +35,6 @@ html, body {
   color: #000000;
   font-size: 16px;
   font-weight: 400;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-color: orange;
 }
@@ -56,7 +53,6 @@ html, body {
   color: #2A5D67;
   font-size: 20px;
   font-weight: 400;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 .cybershoes-category-btn:hover {
@@ -87,21 +83,16 @@ html, body {
   border-radius: 10px;
   margin-bottom: 30px;
   padding-bottom: 0;
-  -webkit-box-shadow: 5px 5px 20px #e2e7f7, -5px -5px 20px #e2e7f7;
-          box-shadow: 5px 5px 20px #e2e7f7, -5px -5px 20px #e2e7f7;
+  box-shadow: 5px 5px 20px #e2e7f7, -5px -5px 20px #e2e7f7;
   width: auto;
   text-align: center;
 }
 .cybershoes-card .d-flex {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: orange;
 }
 .cybershoes-card img {
-  -webkit-box-shadow: 2px 2px 20px #FFFFFF, -2px -2px 20px #FFFFFF;
-          box-shadow: 2px 2px 20px #FFFFFF, -2px -2px 20px #FFFFFF;
-  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(#FFFFFF));
+  box-shadow: 2px 2px 20px #FFFFFF, -2px -2px 20px #FFFFFF;
   background: linear-gradient(to right, #FFFFFF, #FFFFFF);
 }
 .cybershoes-card .card-title {
@@ -140,15 +131,9 @@ header .container .navca a:hover {
 }
 header .navbar {
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 header .navbar .logo {
   margin-left: 0;
@@ -162,15 +147,9 @@ header .navbar .navbar-brand {
 }
 header .navbar .components-group {
   margin-top: -10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 header .navbar .components-group .nav-item {
   font-size: 20px;
@@ -196,9 +175,7 @@ header #isLogIn {
 }
 .cybershoes-carousel .row {
   margin-top: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .cybershoes-carousel .row .row-img {
   width: 120%;
@@ -240,24 +217,16 @@ header #isLogIn {
 
 .cybershoes-footer {
   margin-left: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: #FFFFFF;
   font-size: 14px;
 }
 .cybershoes-footer .footer-register,
 .cybershoes-footer .footer-main {
   width: 75%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   color: #000000;
@@ -279,8 +248,6 @@ header #isLogIn {
 }
 .cybershoes-footer .footer-main {
   width: 75%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   color: #000000;
   padding-bottom: 17px;
@@ -300,8 +267,6 @@ header #isLogIn {
   padding: 62px;
 }
 .register .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .register h1 {
@@ -425,7 +390,6 @@ header #isLogIn {
   background-color: #ECECEC;
 }
 .related-product h1 {
-  background: -webkit-gradient(linear, left top, right top, from(#2A5D67), to(#54BACF));
   background: linear-gradient(to right, #2A5D67, #54BACF);
   -webkit-background-clip: text;
   color: transparent;
@@ -437,7 +401,6 @@ header #isLogIn {
   padding: 70px 0;
 }
 .cart h1 {
-  background: -webkit-gradient(linear, left top, right top, from(#2A5D67), to(#54BACF));
   background: linear-gradient(to right, #2A5D67, #54BACF);
   color: transparent;
   font-size: 50px;
