@@ -89,51 +89,74 @@
     </header>
     <section class="register">
       <div class="container">
-        <h1 class="text-center">Register Form</h1>
-        <form id="formRegister">
-          <div class="row d-flex justify-content-center">
-            <div class="col-6 form-group">
-              <label for="">Email</label>
-              <input type="text" class="form-control" id="cyberEmail" />
+        <h1 class="text-center">Register</h1>
+        <form class="row justify-content-end" id="formRegister">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="cyberEmail"></label>
+              <input
+                type="text"
+                class="form-control"
+                id="cyberEmail"
+                placeholder="Email"
+              />
               <span id="spanEmail" class="text-danger"></span>
             </div>
           </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-6 form-group">
-              <label for="">Name</label>
-              <input type="text" class="form-control" id="cyberName" />
+          <div class="col-6">
+            <div class="form-group">
+              <label for="cyberName"></label>
+              <input
+                type="text"
+                class="form-control"
+                id="cyberName"
+                placeholder="Name"
+              />
               <span id="spanName" class="text-danger"></span>
             </div>
           </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-6 form-group">
-              <label for="">Phone</label>
-              <input type="text" class="form-control" id="cyberPhone" />
-              <span id="spanPhone" class="text-danger"></span>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-6 form-group">
-              <label for="">Password</label>
-              <input type="password" class="form-control" id="cyberPass" />
+          <div class="col-6">
+            <div class="form-group">
+              <label for="cyberPass"></label>
+              <input
+                type="password"
+                class="form-control"
+                id="cyberPass"
+                placeholder="Password"
+              />
               <span id="spanPass" class="text-danger"></span>
             </div>
           </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-6 form-group">
-              <label for="">Confirm Password</label>
+          <div class="col-6">
+            <div class="form-group">
+              <label for="cyberPhone"></label>
+              <input
+                type="text"
+                class="form-control"
+                id="cyberPhone"
+                placeholder="Phone"
+              />
+              <span id="spanPhone" class="text-danger"></span>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-group">
+              <label for="cyberConfirmPass"></label>
               <input
                 type="password"
                 class="form-control"
                 id="cyberConfirmPass"
+                placeholder="Password Confirm"
               />
               <span id="spanConfirmPass" class="text-danger"></span>
             </div>
           </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-6 form-group">
+          <div class="col-6">
+            <div
+              class="form-group d-flex justify-content-start align-items-center"
+            >
               <span>Gender</span>
-              <div class="radio-group d-flex justify-content-center">
+              <div class="radio-group d-flex justify-content-between pl-4">
                 <div class="radio-container">
                   <input type="radio" id="male" name="gender" class="active" />
                   <label for="male">Male</label>
@@ -144,9 +167,9 @@
               </div>
             </div>
           </div>
-          <div class="row d-flex justify-content-center">
+          <div class="col-6">
             <button class="cybershoes-carousel-btn" id="sign-un-btn">
-              Sign up
+              Submit
             </button>
           </div>
         </form>
