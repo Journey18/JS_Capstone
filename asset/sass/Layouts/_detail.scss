@@ -1,5 +1,4 @@
 .product-detail {
-  padding: $pd-6 + 5 0;
   h1 {
     @include styleText($color-black-1, $fs-4 + 5, $fw-3);
   }

@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CyberShoes - Index</title>
+    <title>CyberShoes</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link
-      rel="icon"
-      href="https://onairstorevn.com/wp-content/uploads/2022/04/cropped-icoweb-32x32.png"
-      sizes="32x32"
-    />
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -31,10 +27,11 @@
     />
 
     <!-- Google Font -->
+    <!-- Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
 
@@ -47,25 +44,29 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg">
           <a href="../index.html"
-            ><img class="logo" src="../asset/img/image3.png" alt=""
+            ><img class="logo" src="./../asset/img/image3.png" alt=""
           /></a>
           <ul class="navbar-nav components-group" id="isNotLogIn">
             <li class="nav-item">
-              <a href="../views/cart.html"
-                ><i class="fa-solid fa-bag-shopping text-white"></i
+              <a href="./views/login.html"
+                ><i class="fa-solid fa-basket-shopping text-white"></i
               ></a>
             </li>
             <li class="nav-item">
-              <a href="../views/login.html">Log In</a>
+              <a href="./views/login.html"
+                ><button class="btn btn-light">Log In</button></a
+              >
             </li>
             <li class="nav-item">
-              <a href="../views/register.html">Register</a>
+              <a href="./views/register.html"
+                ><button class="btn btn-dark">Register</button></a
+              >
             </li>
           </ul>
 
           <ul class="navbar-nav components-group" id="isLogIn">
             <li class="nav-item">
-              <a href="../views/cart.html" onclick=""
+              <a href="./views/cart.html" onclick=""
                 ><i class="fa-solid fa-basket-shopping text-white"></i
               ></a>
             </li>
@@ -83,67 +84,131 @@
         </nav>
       </div>
     </header>
-    <section class="product-detail">
-      <div class="container">
-        <div class="row" id="product-detail"></div>
+    <section>
+      <div class="cybershoes-carousel">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img
+                class="row-img"
+                src="./../asset/img/image4.png"
+                litte="logo"
+              />
+            </div>
+            <div class="col-6 d-flex align-items-center">
+              <div class="row-content">
+                <h1>Product name</h1>
+                <h2>Product description ....</h2>
+                <a href="#cybershoes-product">
+                  <button class="cybershoes-carousel-btn mt-4">Buy now</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="related-product">
+    <section class="cybershoes-product" id="cybershoes-product">
       <div class="container">
-        <h1 class="text-center pt-5">--Related Products--</h1>
-        <div class="cybershoes-product-content mt-5">
-          <div class="row" id="cybershoes-related-product"></div>
+        <h1 class="text-center pt-5">--Feature Products--</h1>
+        <div class="mt-5">
+          <div id="cybershoes-product-category">
+            <div class="item-list row">
+              <div class="shoe-item col-4">
+                <div class="item-container">
+                  <div class="shoe-content">
+                    <div class="show-img">
+                      <img src="../asset/img/image5.png" alt="" />
+                    </div>
+                    <h3>Adidas Prophere</h3>
+                    <p>short descript ...</p>
+                  </div>
+                </div>
+                <div class="shoe-btn d-flex">
+                  <button class="buy">Buy now</button>
+                  <div class="price">85$</div>
+                </div>
+              </div>
+              <div class="shoe-item col-4">
+                <div class="item-container">
+                  <div class="shoe-content">
+                    <div class="show-img">
+                      <img src="../asset/img/image5.png" alt="" />
+                    </div>
+                    <h3>Adidas Prophere</h3>
+                    <p>short descript ...</p>
+                  </div>
+                </div>
+                <div class="shoe-btn d-flex">
+                  <button class="buy">Buy now</button>
+                  <div class="price">85$</div>
+                </div>
+              </div>
+              <div class="shoe-item col-4">
+                <div class="item-container">
+                  <div class="shoe-content">
+                    <div class="show-img">
+                      <img src="../asset/img/image5.png" alt="" />
+                    </div>
+                    <h3>Adidas Prophere</h3>
+                    <p>short descript ...</p>
+                  </div>
+                </div>
+                <div class="shoe-btn d-flex">
+                  <button class="buy">Buy now</button>
+                  <div class="price">85$</div>
+                </div>
+              </div>
+              <div class="shoe-item col-4">
+                <div class="item-container">
+                  <div class="shoe-content">
+                    <div class="show-img">
+                      <img src="../asset/img/image5.png" alt="" />
+                    </div>
+                    <h3>Adidas Prophere</h3>
+                    <p>short descript ...</p>
+                  </div>
+                </div>
+                <div class="shoe-btn d-flex">
+                  <button class="buy">Buy now</button>
+                  <div class="price">85$</div>
+                </div>
+              </div>
+              <div class="shoe-item col-4">
+                <div class="item-container">
+                  <div class="shoe-content">
+                    <div class="show-img">
+                      <img src="../asset/img/image5.png" alt="" />
+                    </div>
+                    <h3>Adidas Prophere</h3>
+                    <p>short descript ...</p>
+                  </div>
+                </div>
+                <div class="shoe-btn d-flex">
+                  <button class="buy">Buy now</button>
+                  <div class="price">85$</div>
+                </div>
+              </div>
+              <div class="shoe-item col-4">
+                <div class="item-container">
+                  <div class="shoe-content">
+                    <div class="show-img">
+                      <img src="../asset/img/image5.png" alt="" />
+                    </div>
+                    <h3>Adidas Prophere</h3>
+                    <p>short descript ...</p>
+                  </div>
+                </div>
+                <div class="shoe-btn d-flex">
+                  <button class="buy">Buy now</button>
+                  <div class="price">85$</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <footer class="cybershoes-footer">
-      <div class="footer-register">
-        <div class="footer-section">
-          <h3>GET HELP</h3>
-          <ul>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Shopping</a></li>
-            <li><a href="#">NIKEiD</a></li>
-            <li><a href="#">Nike+</a></li>
-          </ul>
-        </div>
-        <div class="footer-section">
-          <h3>ORDERS</h3>
-          <ul>
-            <li><a href="#">Payment options</a></li>
-            <li><a href="#">Shipping and delivery</a></li>
-            <li><a href="#">Returns</a></li>
-          </ul>
-        </div>
-        <div class="footer-section">
-          <h3>REGISTER</h3>
-          <p>
-            Create one account to manage everything you do with Nike, from your
-            shopping preferences to your Nike+ activity.
-          </p>
-          <a href="#" class="learn-more">Learn more</a>
-        </div>
-      </div>
-      <div class="footer-background">
-        <div class="footer-main">
-          <div class="footer-section">
-            <h3>EMAIL SIGN UP</h3>
-            <p>Be the first to know about new products and special offers.</p>
-            <a href="#" class="sign-up">Sign up now</a>
-          </div>
-          <div class="footer-section">
-            <h3>GIFT CARDS</h3>
-            <p>Give the gift that always fits.</p>
-            <a href="#" class="view-cards">View cards</a>
-          </div>
-          <div class="footer-section">
-            <h3>STORES NEAR YOU</h3>
-            <p>Locate a Nike retail store or authorized retailer.</p>
-            <a href="#" class="search">Search</a>
-          </div>
-        </div>
-      </div>
-    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -163,11 +228,12 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 
     <!-- My JS -->
-    <script src="../controller/logout.js"></script>
-    <script src="../controller/quantityBtn.js"></script>
-    <script src="../model/cartList.js"></script>
-    <script src="../model/cartItem.js"></script>
-    <!-- <script src="../controller/cart.js"></script> -->
-    <script src="../controller/detail.js"></script>
+    <script src="./controller/cart.js"></script>
+    <script src="./controller/detail.js"></script>
+    <script src="./controller/login.js"></script>
+    <script src="./controller/logout.js"></script>
+    <script src="./controller/quantityBtn.js"></script>
+    <script src="./controller/register.js"></script>
+    <script src="./controller/index.js"></script>
   </body>
 </html>

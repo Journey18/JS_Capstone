@@ -1,19 +1,93 @@
 .cybershoes-product {
-    padding-bottom: $pd-6 + 5;
-    background-color: $color-white-1;
-    h1 {
-        color: $color-black-1;
-    }
-    .cybershoes-product-category {
-        .nav-item {
-            margin: 0 $mg-1;
-            .nav-link {
-                border-radius: $br-2;
-                &.active {
-                    @include styleButtonHover($color-primary-1, $border-1, $color-transparent);
-                    color: $color-white-1;
-                }
-            }
+  padding-bottom: $pd-6 + 5;
+  background-color: $color-white-1;
+  h1 {
+    color: $color-black-1;
+  }
+  #cybershoes-product-category {
+    .nav-item {
+      margin: 0 $mg-1;
+      .nav-link {
+        border-radius: $br-2;
+        &.active {
+          @include styleButtonHover(
+            $color-primary-1,
+            $border-1,
+            $color-transparent
+          );
+          color: $color-white-1;
         }
+      }
     }
+    .shoe-item {
+      margin-top: 20px;
+
+      h3 {
+        color: $color-black-1;
+        font-family: $ff-1;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+      p {
+        color: #cbc9c9;
+        font-family: $ff-1;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+      .shoe-btn {
+        .buy,
+        .price {
+          width: 50%;
+          font-size: 24px;
+        }
+        .buy {
+          // color: #000;
+          // font-family: $ff-1;
+
+          // font-style: normal;
+          // font-weight: 200;
+          // line-height: normal;
+          color: #000;
+          font-family: Inter;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 200;
+          line-height: normal;
+
+          background: #e1b067;
+          border: none;
+        }
+        .price {
+          display: block;
+          padding: 10px;
+          text-align: center;
+          background-color: $color-gray-1;
+
+          color: #000;
+
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+      }
+      .item-container {
+        background-color: $color-gray-2;
+        padding: 20px;
+        &:hover {
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
+      }
+      .shoe-content {
+        .show-img {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
 }
