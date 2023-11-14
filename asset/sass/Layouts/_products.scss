@@ -45,21 +45,24 @@
           font-size: 24px;
         }
         .buy {
-          // color: #000;
-          // font-family: $ff-1;
-
-          // font-style: normal;
-          // font-weight: 200;
-          // line-height: normal;
           color: #000;
           font-family: Inter;
           font-size: 24px;
           font-style: normal;
           font-weight: 200;
           line-height: normal;
+          transition: all 0.5s;
 
           background: #e1b067;
           border: none;
+          &:hover {
+            @include styleButtonHover(
+              $color-primary-1,
+              $border-1,
+              $color-gray-2
+            );
+            opacity: 0.95;
+          }
         }
         .price {
           display: block;
